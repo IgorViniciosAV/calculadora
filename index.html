@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/grid.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo ligth">calc</h1>
+        <section class="secao-tema">
+            <h2 class="tema__titulo ligth">THEME</h2>
+            <div class="tema__caixa">
+                <span class="numero__temas ligth">1</span>
+                <label class="switch">
+                    <input type="checkbox" id="botao-tema">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </section>
+    </header>
+
+    <section class="tela-calculadora">
+        <p class="texto__tela ligth">399,981</p>
+    </section>
+
+    <main class="teclado-calculadora">
+
+        <button class="tecla-calculadora">7</button>
+        <button class="tecla-calculadora">8</button>
+        <button class="tecla-calculadora">9</button>
+        <button class="tecla-calculadora del">DEL</button>
+
+        <button class="tecla-calculadora">4</button>
+        <button class="tecla-calculadora">5</button>
+        <button class="tecla-calculadora">6</button>
+        <button class="tecla-calculadora">+</button>
+
+        <button class="tecla-calculadora">1</button>
+        <button class="tecla-calculadora">2</button>
+        <button class="tecla-calculadora">3</button>
+        <button class="tecla-calculadora">-</button>
+
+        <button class="tecla-calculadora">.</button>
+        <button class="tecla-calculadora">0</button>
+        <button class="tecla-calculadora">/</button>
+        <button class="tecla-calculadora">x</button>
+
+        <button class="tecla-calculadora tecla-reset">RESET</button>
+        <button class="tecla-calculadora tecla-igual">=</button>
+
+    </main>
+
+    <script src="./js/themes.js"></script>
+
+</body>
+
+</html>

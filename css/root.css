@@ -1,0 +1,83 @@
+/*----------- FONTE PRINCIPAL ------------*/
+
+:root {
+    --fonte-principal: "League Spartan", sans-serif;
+}
+
+
+
+
+/*----------- TEMA 1: DARK --------------*/
+
+:root {
+    /* Planos de Fundo */
+    --fundo-principal: hsl(222, 26%, 31%);
+    --fundo-teclado: hsl(223, 31%, 20%);
+    --fundo-tela-calc: hsl(224, 36%, 15%);
+
+    /* Teclas */
+    --cor-tecla-primaria: hsl(30, 25%, 89%);
+    --sombra-tecla-primaria: hsl(28, 16%, 65%);
+
+    --cor-tecla-secundaria: hsl(225, 21%, 49%);
+    --sombra-tecla-secundaria: hsl(224, 28%, 35%);
+
+    --cor-tecla-terciaria: hsl(6, 63%, 50%);
+    --sombra-tecla-terciaria: hsl(6, 70%, 34%);
+
+    /* TEXTO */
+    --cor-texto-primario: hsl(0, 0%, 100%);
+    --cor-texto-secundario: hsl(221, 14%, 31%);
+
+}
+
+
+
+/*----------- TEMA 2: LIGTH -------------*/
+
+.modo-claro:root {
+    /* Planos de Fundo */
+    --fundo-principal: hsl(0, 0%, 90%);
+    --fundo-teclado: hsl(0, 5%, 81%);
+    --fundo-tela-calc: hsl(0, 0%, 93%);
+
+    /* Teclas */
+    --cor-tecla-primaria: hsl(45, 7%, 89%);
+    --sombra-tecla-primaria: hsl(35, 11%, 61%);
+
+    --cor-tecla-secundaria: hsl(185, 42%, 37%);
+    --sombra-tecla-secundaria: hsl(185, 58%, 25%);
+
+    --cor-tecla-terciaria: hsl(25, 98%, 40%);
+    --sombra-tecla-terciaria: hsl(25, 99%, 27%);
+
+    /* TEXTO */
+    --cor-texto-primario: hsl(0, 0%, 100%);
+    --cor-texto-secundario: hsl(60, 10%, 19%);
+}
+
+
+
+
+/*----------- TEMA 3: PURPLE -------------*/
+
+.modo-purple:root {
+    /* Planos de Fundo */
+    --fundo-principal: hsl(0, 0%, 90%);
+    --fundo-teclado: hsl(0, 5%, 81%);
+    --fundo-tela-calc: hsl(0, 0%, 93%);
+
+    /* Teclas */
+    --cor-tecla-primaria: hsl(45, 7%, 89%);
+    --sombra-tecla-primaria: hsl(35, 11%, 61%);
+
+    --cor-tecla-secundaria: hsl(185, 42%, 37%);
+    --sombra-tecla-secundaria: hsl(185, 58%, 25%);
+
+    --cor-tecla-terciaria: hsl(25, 98%, 40%);
+    --sombra-tecla-terciaria: hsl(25, 99%, 27%);
+
+    /* TEXTO */
+    --cor-texto-primario: hsl(0, 0%, 100%);
+    --cor-texto-secundario: hsl(60, 10%, 19%);
+}
