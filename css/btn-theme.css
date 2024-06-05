@@ -1,6 +1,6 @@
 /* O interruptor - a caixa ao redor do controle deslizante */
 .switch {
-    scale: 0.8;
+    scale: 0.9;
     font-size: 17px;
     position: relative;
     display: inline-block;
@@ -26,6 +26,10 @@
     background-color: var(--fundo-teclado);
     transition: .5s;
     border-radius: 30px;
+}
+
+.switch:hover {
+    filter: brightness(105%);
 }
 
 .slider:before {

@@ -13,6 +13,7 @@ body {
     height: 90vh;
     padding: 1.5em 0.6em;
     font-size: 32px;
+    cursor: default;
 }
 
 /* ------- HEADER ------- */
@@ -64,9 +65,14 @@ body {
     padding: .8em;
     margin: .8em 0 .8em 0;
     border-radius: 12px;
+    position: relative;
+    min-height: 4.5vh;
 }
 
 .texto__tela {
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
     color: var(--cor-texto-primario);
 }
 
@@ -90,6 +96,19 @@ body {
     margin: 0;
     font-weight: 700;
     color: var(--cor-texto-secundario);
+    cursor: pointer;
+    transition: all 150ms;
+    /* filter: brightness(10%); */
+}
+
+.tecla-calculadora:hover {
+    filter: brightness(110%);
+}
+
+.tecla-calculadora:active {
+    transform: translateY(4px);
+    /* filter: brightness(100%); */
+    box-shadow: none;
 }
 
 .del,

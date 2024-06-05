@@ -22,7 +22,7 @@
     <header class="cabecalho">
         <h1 class="cabecalho__titulo ligth">calc</h1>
         <section class="secao-tema">
-            <h2 class="tema__titulo ligth">THEME</h2>
+            <h2 class="tema__titulo ligth">TEMAS</h2>
             <div class="tema__caixa">
                 <span class="numero__temas ligth">1</span>
                 <label class="switch">
@@ -34,37 +34,38 @@
     </header>
 
     <section class="tela-calculadora">
-        <p class="texto__tela ligth">399,981</p>
+        <p class="texto__tela ligth"></p>
     </section>
 
     <main class="teclado-calculadora">
 
-        <button class="tecla-calculadora">7</button>
-        <button class="tecla-calculadora">8</button>
-        <button class="tecla-calculadora">9</button>
-        <button class="tecla-calculadora del">DEL</button>
+        <button value="7" id="teclas" class="tecla-calculadora">7</button>
+        <button value="8" id="teclas" class="tecla-calculadora">8</button>
+        <button value="9" id="teclas" class="tecla-calculadora">9</button>
+        <button id="tecla-del" class="tecla-calculadora del">DEL</button>
 
-        <button class="tecla-calculadora">4</button>
-        <button class="tecla-calculadora">5</button>
-        <button class="tecla-calculadora">6</button>
-        <button class="tecla-calculadora">+</button>
+        <button value="4" id="teclas" class="tecla-calculadora">4</button>
+        <button value="5" id="teclas" class="tecla-calculadora">5</button>
+        <button value="6" id="teclas" class="tecla-calculadora">6</button>
+        <button id="tecla-soma" class="tecla-calculadora">+</button>
 
-        <button class="tecla-calculadora">1</button>
-        <button class="tecla-calculadora">2</button>
-        <button class="tecla-calculadora">3</button>
+        <button value="1" id="teclas" class="tecla-calculadora">1</button>
+        <button value="2" id="teclas" class="tecla-calculadora">2</button>
+        <button value="3" id="teclas" class="tecla-calculadora">3</button>
         <button class="tecla-calculadora">-</button>
 
         <button class="tecla-calculadora">.</button>
-        <button class="tecla-calculadora">0</button>
+        <button value="0" id="teclas" class="tecla-calculadora">0</button>
         <button class="tecla-calculadora">/</button>
         <button class="tecla-calculadora">x</button>
 
-        <button class="tecla-calculadora tecla-reset">RESET</button>
+        <button id="tecla-reset" class="tecla-calculadora tecla-reset">RESET</button>
         <button class="tecla-calculadora tecla-igual">=</button>
 
     </main>
 
     <script src="./js/themes.js"></script>
+    <script src="./js/index.js"></script>
 
 </body>
 
