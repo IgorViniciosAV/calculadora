@@ -82,7 +82,7 @@ body {
     background-color: var(--fundo-teclado);
     border-radius: 12px;
     padding: .8em;
-    height: 50vh;
+    height: 47vh;
 }
 
 .tecla-calculadora {
@@ -128,6 +128,19 @@ body {
 
 .ligth {
     color: var();
+}
+
+.rodape {
+    font-size: .4em;
+    color: var(--cor-tecla-secundaria);
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+
+.rodape strong {
+    /* color: var(--cor-texto-primario); */
+    filter: brightness(1.2);
 }
 
 
